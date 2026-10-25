@@ -3,7 +3,7 @@ from fastapi import FastAPI, HTTPException  # FastAPI is the web framework; HTTP
 from pydantic import BaseModel, Field       # BaseModel defines data structures; Field adds custom validation rules
 
 # Create the main application instance. Think of 'app' as the main entry point to our web server.
-app = FastAPI(title="Student Marks Service")
+app = FastAPI(title="Student Marks service")
 
 # In-memory database (a dictionary). 
 # Key: student_id (int), Value: dictionary of student details.
